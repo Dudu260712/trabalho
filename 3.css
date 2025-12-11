@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    padding: 20px;
+}
+
+.produto-img {
+    width: 100%;
+    border-radius: 0px;
+    border-bottom: 1.5px solid black;
+
+}
+
+
+
+.tag-desconto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e60000;
+    color: white;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.tag-pix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e60000;
+    color: white;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+.titulo {
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #ff0000;
+}
+
+.preco-atual {
+    font-size: 22px;
+    color: #009900;
+    font-weight: bold;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+ 
+}
+
+
+
+a:hover{
+ border-bottom: 2px solid black;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ============================ */
+/*           TOPBAR             */
+/* ============================ */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+    border: 2px solid black;
+    justify-content: space-between;
+    width: 1850px;
+}
+
+
+.topbar button {
+  font-size: 22px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.topbar button:hover {
+  background: #ccc;
+}
+
+.topbar input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ============================ */
+/*           OVERLAY            */
+/* ============================ */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: none;
+  z-index: 900;
+}
+
+.overlay.show {
+  display: block;
+}
+
+/* ============================ */
+/*           SIDEBAR            */
+/* ============================ */
+
+.sidebar {
+  width: 260px;
+  background: #eee;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -270px; /* escondido */
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  z-index: 1000;
+  overflow-y: auto;
+  box-shadow: 3px 0 8px rgba(0,0,0,0.2);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+/* ============================ */
+/*        MENU ITEMS            */
+/* ============================ */
+
+.menu-item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.menu-item:hover {
+  background: #ddd;
+}
+
+/* ============================ */
+/*           SETAS              */
+/* ============================ */
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg);
+}
+
+/* ============================ */
+/*          SUBMENUS            */
+/* ============================ */
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  background: #ddd;
+  transition: max-height 0.3s ease;
+}
+
+.submenu div {
+  padding: 12px 20px;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submenu div:hover {
+  background: #ffffff;
+}
+a {
+
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1.5px solid transparent;
+   
+
+}
+a:hover {
+
+      border-bottom: 1.5px solid black;
+}
+.logo {
+    height: 35px;
+}
+.foto{
+height: 40px;
+ border-radius: 50px;
+
+}
+.nome:hover {
+        text-decoration: underline;
+}
+.ft{
+padding: 30px;
+   margin-left: auto;
+    margin-right: auto;
+   display: block;
+    border-radius: 130px;
+    border: 4px solid black;
+}
+.cv {
+
+  height: 20px;
+  width: 20px;
+  display: flex;
+
+}
+.grupo {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.coracao{
+   height: 20px;
+  width: 20px;
+  display: flex;
+}
+.coracao:hover{
+  background-color: red;
+  color: red;
+  border-color: red;
+}
+.compre{
+background-color: #009900;
+height: 60px;
+border-radius: 15px;
+border: 2.9px solid black;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 19px;
+}
+.D1 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: 150px;
+    border: 3px solid black;
+    margin-left: 50px;
+}
+.D2 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 400px;
+}
+.D3 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 750px;
+}
+.D4 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1100px;
+
+
+
+}
+.D5 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1450px;
+}
+.D6 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: 50px;
+    border: 3px solid black;
+    margin-left: 50px;
+}
+.D7 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 400px;
+}
+.D8 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 750px;
+}
+.D9 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1100px;
+}
+.D10 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1450px;
+}
+
+
+/* Coração começa invisível */
+.heart{
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  border-bottom: solid red;
+
+
+
+  /* Ícone Pichau contorno */
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1077/1077035.png");
+  background-size: cover;
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: .2s;
+}
+/* Aparece quando passa o mouse no D1 */
+.D1:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D2 */
+.D2:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Aparece quando passa o mouse no D3 */
+.D3:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D4 */
+.D4:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D5 */
+.D5:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D6 */
+.D6:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D7 */
+.D7:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D8 */
+.D8:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D9 */
+.D9:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* Aparece quando passa o mouse no D10 */
+.D10:hover .heart {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Coração vermelho */
+.heart.active {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/833/833472.png");
+}
+
+.esgotado {
+    color: #e60000;
+     font-size: 10px;
+text-align: center;
+
+
+}

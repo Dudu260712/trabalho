@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+     <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="Descontos.html"><mark><b>PROMOÇÕES</b></mark></a>
+    <a href=""><b>Monte seu PC</b></a>
+     <a href="index.html"><b>HOME</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+        <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+         <a href="favoritos.html"> <img class="coracao" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a>
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+     <a href="intelp.html"><div>INTEL</div></a>
+    <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+   <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+
+  </div>
+     <div class="D1">
+        <div class="heart"></div>
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-jnzW0INaOVmdok9anb58zlSgXYRCe53ZQ&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte B550M DS3H AC R2, Wifi, DDR4, Socket AM4, M-ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 1.299,99</p>
+    <p class="preco-atual">R$ 1.169,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ </div>
+
+
+     <div class="D2">
+        <div class="heart"></div>
+<div class="tag-desconto">10% OFF</div>
+ 
+
+
+
+    <img src="https://images.tcdn.com.br/img/img_prod/15959/placa_mae_msi_b650_gaming_plus_wifi_ddr5_socket_am5_m_2_19741_1_35972a0ca4788ad7c7d418a08575f181.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae MSI B850 Gaming Plus WiFi, DDR5, Socket AMD AM5, ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 2.899,99</p>
+    <p class="preco-atual">R$ 1.999,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D3">
+    <div class="heart"></div>
+
+
+
+  <img class="produto-img"src="https://cdn.awsli.com.br/800x800/1040/1040743/produto/354811649/placa-mae-superframe-b450m-legendary-series-chipset-b450-amd-am4-matx-ddr4-sf-b4-fkyzypwev7.jpg" alt="">
+    <h3 class="titulo">Placa Mae ASRock B450M Steel Legend, DDR4, Socket AMD AM4, M-ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 1.199,99</p>
+    <p class="preco-atual">R$ 599,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+
+    <div class="D4">
+
+        <div class="heart"></div>
+
+        <img class="produto-img" src="https://images.kabum.com.br/produtos/fotos/392047/placa-mae-asus-rog-strix-b650e-e-gaming-wifi-amd-am5-b650-atx-ddr5-90mb1bb0-m0eay0_1666975658_gg.jpg" alt="">
+
+        <h3 class="titulo">Placa Mae Asus Rog Strix B650E-F Gaming WIFI, DDR5, Socket AMD AM5, ATX, Chipset AMD,...</h3>
+
+        <p class="preco-antigo">de R$ 2.699,99</p>
+        <p class="preco-atual">R$ 2.099,99</p>
+
+        <div class="compre">
+            <a href="carrinho.html"><b>COMPRAR</b></a>
+        </div>
+
+    </div>
+</div>
+
+ <div class="D5">
+  <div class="heart"></div>
+<div class="tag-desconto">65% OFF</div>
+    <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/5/a520m-k-v22.jpg" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte A520M K V2, DDR4, Socket AMD AM4, M-ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 1.199,99</p>
+    <p class="preco-atual">R$ 419,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D6">
+  <div class="heart"></div>
+<div class="tag-desconto">20% OFF</div>
+    <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/400929/Placa-M-e-Gigabyte-B650-Aorus-Elite-AX-AMD-AM5-ATX-DDR5_1723635938_g.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte B650 Aorus Elite AX V2, WiFi, DDR5, Socket AMD AM5, ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 2.699,99</p>
+    <p class="preco-atual">R$ 2.159,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D7">
+  <div class="heart"></div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EOcJ2d4QlZgQod2y1bTrrwuw48Y4-vQ9jg&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte B650M D3HP, DDR5, Socket AM5, M-ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 1.499,99</p>
+    <p class="preco-atual">R$ 1.099,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D8">
+    <div class="heart"></div>
+
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/t/g/tgt-a88-011201.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae TGT A88, DDR3, Socket FM2+, Chipset AMD A88, TGT-A88-01,...</h3>
+
+    <p class="preco-antigo">de R$ 399,99</p>
+    <p class="preco-atual">R$ 99,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D9">
+    <div class="heart"></div>
+
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/o/rog-strix-b550-xe-wifi.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Asus ROG Strix B550-XE Gaming WIFI, DDR4, Socket AM4, ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 3.699,99</p>
+    <p class="preco-atual">R$ 2.999,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D10">
+      <div class="heart"></div>
+<div class="tag-desconto">75% OFF</div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBtsAp4C-BuqjftGB0iD-cAl6UnZFsMda45Q&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Mancer B450M DA V2, DDR4, Socket AM4, M-ATX, Chipset AMD,...</h3>
+
+    <p class="preco-antigo">de R$ 999,99</p>
+    <p class="preco-atual">R$ 249,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
