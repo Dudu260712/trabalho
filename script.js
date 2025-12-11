@@ -57,3 +57,47 @@ function toggleSub(id) {
     submenu.style.maxHeight = submenu.scrollHeight + "px";
   }
 }
+// abre/fecha dropdown principal e categorias por CLIQUE
+document.addEventListener('DOMContentLoaded', () => {
+  const dropdown = document.querySelector('.dropdown');
+  const dropBtn = dropdown.querySelector('.drop-btn');
+  const dropdownContent = dropdown.querySelector('.dropdown-content');
+
+  // toggle do painel principal
+  dropBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    // fecha outras instâncias se houver
+    document.querySelectorAll('.dropdown').forEach(d => {
+      if (d !== dropdown) d.classList.remove('open');
+    });
+    dropdown.classList.toggle('open');
+  });
+
+  // toggle de cada categoria (Processador, Placa de Vídeo...)
+  const categories = dropdown.querySelectorAll('.category');
+  categories.forEach(cat => {
+    const title = cat.querySelector('.cat-title');
+
+    title.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      // fecha outras categorias dentro do mesmo painel
+      categories.forEach(c => { if (c !== cat) c.classList.remove('open'); });
+      cat.classList.toggle('open');
+    });
+  });
+
+  // fecha tudo ao clicar fora
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+    document.querySelectorAll('.category').forEach(c => c.classList.remove('open'));
+  });
+
+  // impedir fechamento ao clicar dentro do painel
+  dropdownContent.addEventListener('click', (e) => e.stopPropagation());
+});
+
+document.querySelectorAll(".heart").forEach(heart => {
+    heart.addEventListener("click", () => {
+        heart.classList.toggle("active");
+    });
+});

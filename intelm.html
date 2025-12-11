@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="intelm.css">
+</head>
+<body>
+     <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="Descontos.html"><mark><b>PROMOÇÕES</b></mark></a>
+    <a href=""><b>Monte seu PC</b></a>
+     <a href="index.html"><b>HOME</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+        <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+         <a href="favoritos.html"> <img class="coracao" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a>
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+     <a href="intelp.html"><div>INTEL</div></a>
+      <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+       <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+
+  </div>
+     <div class="I1">
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/p/r/prime-h610m-cs-d44.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Asus Prime H610M-CS D4, DDR4, LGA1700, M-ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 999,99</p>
+    <p class="preco-atual">R$ 699,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ </div>
+
+
+     <div class="I2">
+<div class="tag-desconto">10% OFF</div>
+  <div class="heart"></div>
+
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkUPHx6Jkx3LY_80946IXeAX0Ohz_x1QkrlQ&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte B860I Aorus Pro Ice, DDR5, LGA1851, Mini-ITX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 2.699,99</p>
+    <p class="preco-atual">R$ 2.429,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I3">
+<div class="tag-desconto">70% OFF</div>
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/w/7/w790-ai-top3.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Gigabyte W790 AI TOP, DDR5, LGA4677, E-ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 9.599,99</p>
+    <p class="preco-atual">R$ 2.879,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I4">
+ <div class="heart"></div>
+ <div class="tag-desconto">20% OFF</div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL5bX6oaRg3w7IiUoF4iTqyx_3L5IY6rgKyg&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Asus TUF Gaming B860-Plus WiFi, DDR5, LGA1851, ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 3.149,45</p>
+    <p class="preco-atual">R$ 2.519,56</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I5">
+   <div class="heart"></div>
+
+
+    <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/o/rog-strix-b860-g-gaming-wifi4.jpg" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Asus ROG Strix B860-A Gaming WiFi, DDR5, LGA1851, ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 3.179,99</p>
+    <p class="preco-atual">R$ 2.679,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I6">
+ <div class="heart"></div>
+
+    <img src="https://patoloco.com.br/arquivos/produtos/imagens_adicionais/c99d32d420553d7706937b50bd43d33c86806edf.jpeg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae MSI Z890 Gaming Plus WiFi, DDR5, LGA1851, ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 3.289,19</p>
+    <p class="preco-atual">R$ 2.799,29</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I7">
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/6/h610m-hvsm2r23.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae ASRock H610M-HVS/M.2 R2.0, Socket LGA1700, M-ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 899,99</p>
+    <p class="preco-atual">R$ 599,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I8">
+   <div class="heart"></div>
+
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/5/h510mhp-20.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae Biostar H510M, DDR4, Socket LGA1200, M-ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 749,99</p>
+    <p class="preco-atual">R$ 449,49</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I9">
+<div class="tag-desconto">35% OFF</div>
+ <div class="heart"></div>
+
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rdwc-lyw9qzfutab8f7" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae TGT H61-T, DDR3, LGA 1155, M-ATX, CHipset Intel H61, TGT-H61-T...</h3>
+
+    <p class="preco-antigo">de R$ 399,99</p>
+    <p class="preco-atual">R$ 259,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I10">
+ <div class="heart"></div>
+
+    <img src="https://www.achorao.com/cdn/shop/files/msi-computo-default-title-motherboard-msi-b760-gaming-plus-wifi-chipset-intel-b760-lga1700-hdmi-dp-atx-4711377086561-46366958125296_1080x.jpg?v=1738884611" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Placa Mae MSI B760 Gaming Plus WI-FI, DDR5, Socket LGA 1700, ATX, Chipset Intel,...</h3>
+
+    <p class="preco-antigo">de R$ 2.289,98</p>
+    <p class="preco-atual">R$ 1.589,98</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

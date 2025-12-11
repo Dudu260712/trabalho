@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="intelm.css">
+</head>
+<body>
+     <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="Descontos.html"><mark><b>PROMOÇÕES</b></mark></a>
+    <a href=""><b>Monte seu PC</b></a>
+     <a href="index.html"><b>HOME</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+        <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+         <a href="favoritos.html"> <img class="coracao" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a>
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+     <a href="intelp.html"><div>INTEL</div></a>
+      <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+       <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+
+  </div>
+     <div class="I1">
+ <div class="heart"></div>
+
+    <img src="https://images.kabum.com.br/produtos/fotos/283718/processador-intel-core-i5-12400f-cache-xmb-xghz-xghz-max-turbo-lga-1700-bx8071512400f_1640094446_gg.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i5-12600K, 10-Core, 16-Threads, 3.7GHz (4.9GHz TURBO)...</h3>
+
+    <p class="preco-antigo">de R$ 1.199,99</p>
+    <p class="preco-atual">R$ 799,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ </div>
+
+
+     <div class="I2">
+<div class="tag-desconto">20% OFF</div>
+  <div class="heart"></div>
+
+
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx80768285.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core Ultra 9 285, 24-Core, 24-Threads, 2.5GHz (5.6GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 5.499,99</p>
+    <p class="preco-atual">R$ 4.399,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I3">
+<div class="tag-desconto">56% OFF</div>
+ <div class="heart"></div>
+
+    <img src="data:image/jpeg;base64,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" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i3-14100F, 4-Core, 8-Threads, 3.5GHz (4.7GHz Turbo), Cache</h3>
+
+    <p class="preco-antigo">de R$ 999,99</p>
+    <p class="preco-atual">R$ 439,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I4">
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx8071514900kf.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i9-14900KF, 24-Core, 32-Threads, 3.2GHz (6.0GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 3.499,99</p>
+    <p class="preco-atual">R$ 2.699,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I5">
+   <div class="heart"></div>
+<div class="tag-desconto">15% OFF</div>
+
+    <img class="produto-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlahOwMLreLIIjWkz2vASeVKYmTQjH4qk1A&s" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i7-14700, 20-Core, 28-Threads, 3.4GHz (5.4GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 2.899,49</p>
+    <p class="preco-atual">R$ 2.464,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I6">
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx8070110400231.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i5-10400, 6-Core, 12-Threads, 2.9Ghz (4.3Ghz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 749,49</p>
+    <p class="preco-atual">R$ 349,49</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I7">
+ <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/b/x/bx80768265.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core Ultra 7 265, 20-Core, 20-Threads, 2.40GHz (5.3GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 2.999,99</p>
+    <p class="preco-atual">R$ 1.449,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I8">
+   <div class="heart"></div>
+<div class="tag-desconto">75% OFF</div>
+
+    <img src="https://lojaibyte.vteximg.com.br/arquivos/ids/396096-1200-1200/processador-intel-core-i3-12100f-3-3ghz-4-3ghz-turbo-12mb-12-geracao-sem-video-lga1700-50762-1.jpg?v=637953185719400000" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i3-12100F, 4-Core, 8-Threads, 3.3GHz ( 4.3GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 449,99</p>
+    <p class="preco-atual">R$ 112,49</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I9">
+<div class="tag-desconto">5% OFF</div>
+ <div class="heart"></div>
+
+    <img src="https://images1.kabum.com.br/produtos/fotos/241051/processador-intel-12900kf-bx8071512900kf_1635258488_m.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i9-12900KF, 16-Core, 24-Threads, 3.2GHz (5.2GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 5.999,99</p>
+    <p class="preco-atual">R$ 5.699,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="I10">
+ <div class="heart"></div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFWz9RKMvqbPVeuC-o6UVU9CUK99uMpCpsxw&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Processador Intel Core i7-14700KF, 20-Core, 28-Threads, 3.4GHz (5.6GHz Turbo),...</h3>
+
+    <p class="preco-antigo">de R$ 5.532,93</p>
+    <p class="preco-atual">R$ 4.834,55</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

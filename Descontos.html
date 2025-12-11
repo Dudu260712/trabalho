@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pEc</title>
+    <link rel="stylesheet" href="Descontos.css">
+</head>
+<body>
+    <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="index.html"><b>HOME</b></a>
+    <a href=""><b>Monte seu PC</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+      <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+        <a href="favoritos.html"> <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a> 
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+ <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+      <a href="intelp.html"><div>INTEL</div></a>
+     <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+        <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+  </div>
+   
+   <div class="card1">
+     <div class="heart"></div>
+<div class="tag-desconto">70% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/-/a-pc-narok-preto-gpu-m-002_61.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Musa VII, Intel i3-14100F, Radeon RX 6600 8GB, 16GB DDR4</h3>
+
+    <p class="preco-antigo">de R$ 7.601,29</p>
+    <p class="preco-atual">R$ 3.806,45</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+<div class="card2" >
+   <div class="heart"></div>
+    <div class="tag-desconto">25% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/v/cv500l-water_fan-media-001_12_1.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Abraxas VII, AMD Ryzen 5 7600X, GeForce RTX 5070 Ti 16G...</h3>
+
+    <p class="preco-antigo">de R$ 15.399,00</p>
+    <p class="preco-atual">R$ 11.549,25</p>
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+ <div class="card3">
+   <div class="heart"></div>
+    <div class="tag-desconto">55% OFF</div>
+
+    <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/c/pc-narok-v2-gpu-p-002_79_2_1_1.jpg" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Cooler Master, Intel i5-12400F, GeForce RTX 5060 8GB,...</h3>
+
+    <p class="preco-antigo">de R$ 3.999.99</p>
+    <p class="preco-atual">R$ 1.799.99</p>
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ <div class="card4">
+     <div class="heart"></div>
+    <div class="tag-desconto">90% OFF</div>
+
+    <img class="produto-img" src="https://images.tcdn.com.br/img/img_prod/740836/pc_gamer_top_concordia_ryzen_5_5600x_16gb_ssd_1tb_placa_3060_fonte_600w_16159_1_cf3cdbf4047d49e563292d2000f3bb4b.png" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Valquíria II, Intel i5-10400F, Radeon RX 580 8GB, 16GB DDR4, SSD 480GB</h3>
+
+    <p class="preco-antigo">de R$ 1.451,19</p>
+    <p class="preco-atual">R$ 145,11</p>
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+ <div class="card5">
+     <div class="heart"></div>
+    <div class="tag-desconto">15% OFF</div>
+
+    <img  class="produto-img"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesd9N35yrnVu76ZdQODdV08Iq15oQjxpGmA&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Ares XIII, Intel i5-14400F, Radeon RX 7700 XT 12GB, 16GB DDR4, SSD M.2 1TB</h3>
+
+    <p class="preco-antigo">de R$ 6.025,31</p>
+    <p class="preco-atual">R$ 5.121,51</p>
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<div class="card6">
+     <div class="heart"></div>
+    <div class="tag-desconto">BRINDE POR 1 DIA!!!</div>
+
+    <img src="https://shopinfo.vteximg.com.br/arquivos/ids/1693309-1000-1000/1.png?v=638998514560430000" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Abraxas VII, AMD Ryzen 5 7600X, GeForce RTX 5070 Ti 16GB, 32GB DDR5, SSD M.2 1TB</h3>
+
+    <p class="preco-antigo">de R$ 10.999,99 </p>
+    <p class="preco-atual">GRÁTIS</p>
+   <div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+<div class="card7">
+   <div class="heart"></div>
+    <div class="tag-desconto">5% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/-/a-pc-pichau-hexer-gpu-m-002_4.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Mancer Odin VII, AMD Ryzen 7 5700, GeForce RTX 5060 8GB, 16GB DDR4, SSD M.2 1TB</h3>
+
+    <p class="preco-antigo">de R$ 4.655,99</p>
+    <p class="preco-atual">R$ 4.442,31</p>
+   <div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+<div class="card8">
+   <div class="heart"></div>
+    <div class="tag-desconto">50% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/v/cv500l-water_fan-media-001_13_1_1.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Pichau Gamer Afrodite, AMD Ryzen 7 5700X, GeForce RTX 5070 Ti 16GB, 32GB DDR4, SSD M.2 2TB</h3>
+
+    <p class="preco-antigo">de R$ 9.999,99</p>
+    <p class="preco-atual">R$ 4.999,99</p>
+  <div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+<div class="card9">
+   <div class="heart"></div>
+    <div class="tag-desconto">30% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/-/a-pc-narok-preto-gpu-m-002_61.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">PC Gamer Pichau Shax, Intel i5-14400F, GeForce RTX 5050 8GB, 16GB DDR4, SSD M.2 1TB</h3>
+
+    <p class="preco-antigo">de R$ 7.319,64</p>
+    <p class="preco-atual">R$ 5.123,74</p>
+   <div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+<div class="card10">
+   <div class="heart"></div>
+    <div class="tag-desconto">10% OFF</div>
+
+    <img src="https://ticnova.vtexassets.com/assets/vtex/assets-builder/ticnova.pcbox-store-theme/12.1.0/configurador/pc_gaming___f7470df524838577deeca33c2396a568.png" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Pc Gamer Pichau Pro III Ryzen 9 7950X3D, X670E DDR5, 32GB de Memoria DDR5...</h3>
+
+    <p class="preco-antigo">de R$ 24.999,99</p>
+    <p class="preco-atual">R$ 22.499,99</p>
+    <div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
