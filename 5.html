@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pEc</title>
+    <link rel="stylesheet" href="5.css">
+    <link rel="icon" href="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg">
+</head>
+<body>
+     <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="Descontos.html"><mark><b>PROMOÇÕES</b></mark></a>
+    <a href=""><b>Monte seu PC</b></a>
+     <a href="index.html"><b>HOME</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+        <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+         <a href="favoritos.html"> <img class="coracao" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a>
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+     <a href="intelp.html"><div>INTEL</div></a>
+    <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+   <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+
+  </div>
+     <div class="D1">
+        <div class="heart"></div>
+
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/c/m/cmk48gx5m2b5200c382.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Memoria Corsair Vengeance, 48GB (2x24GB), DDR5, 5200MHz, C38, Preto,...</h3>
+
+    <p class="preco-antigo">de R$ 2.599,99</p>
+    <p class="preco-atual">R$ 1.999,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ </div>
+
+
+     <div class="D2">
+        <div class="heart"></div>
+
+
+    <img src="https://cdn.awsli.com.br/600x450/25/25449/produto/355356187/5824d9f590c1448d8b8f06b81e1401a9-product-images-8873804-773d5ba085df4ffa8073c484-ur96hcq7sg.jpeg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">Memoria Adata Lancer Blade, 16GB (1x16GB), DDR5, 6000MHz, C48, Branco,...</h3>
+
+    <p class="preco-antigo">de R$ 989,99</p>
+    <p class="preco-atual">R$ 649,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="D3">
+    <div class="heart"></div>
+
+
+
+  <img class="produto-img"src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/t/p/tpbd58g5600hc4601.jpg" alt="">
+    <h3 class="titulo">Memoria Team Group Elite Plus, 8GB (1x8GB), DDR5, 5600MHz, C46, Cinza,...</h3>
+
+    <p class="preco-antigo">de R$ 899,99</p>
+    <p class="preco-atual">R$ 619,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+
+    <div class="D4">
+
+        <div class="heart"></div>
+
+        <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/c/m/cmh16gx5m1b5600z40.jpg" alt="">
+
+        <h3 class="titulo">Memoria Corsair Vengeance, RGB, 16GB (1x16GB), DDR5, 5600MHz, C40, Cinza,...</h3>
+
+        <p class="preco-antigo">de R$ 1.499,99</p>
+        <p class="preco-atual">R$ 1.199,99</p>
+
+        <div class="compre">
+            <a href="carrinho.html"><b>COMPRAR</b></a>
+        </div>
+
+    </div>
+</div>
+
+ <div class="D5">
+  <div class="heart"></div>
+
+    <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/c/pch-eri5600-8gb.jpg" alt="PC Gamer">
+
+    <h3 class="titulo">Memoria Para Notebook Pichau Eris, 8GB (1x8GB), DDR5, 5600MHz, C46,...</h3>
+
+    <p class="preco-antigo">de R$ 999,99</p>
+    <p class="preco-atual">R$ 649,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+<script src="script.js"></script>
+
+<body>
+<html>

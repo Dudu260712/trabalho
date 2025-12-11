@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pEc</title>
+    <link rel="stylesheet" href="ssd.css">
+    <link rel="icon" href="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg">
+</head>
+<body>
+     <!-- Barra superior -->
+  <div class="topbar">
+    <button id="btnMenu">☰</button>
+   <div class="grupo"> <img class="logo" src="https://cdn.dribbble.com/userupload/12768721/file/original-afff28bc9d644b90debc8cdc0aa80fb8.jpg" alt="">
+  <a href="Descontos.html"><mark><b>PROMOÇÕES</b></mark></a>
+    <a href=""><b>Monte seu PC</b></a>
+     <a href="index.html"><b>HOME</b></a>
+   </div>
+       <input type="text" placeholder="Pesquisar">
+   <div>
+
+   </div>
+   <div class="grupo">
+      <img class="foto" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+           <span class="nome">user190510</span>
+
+
+        <a href="carrinho.html"> <img  class="cv"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjqaD-IMIKKi6Eu1szK_XXeuXAXs5e2bWW0w&s" alt=""></a>
+          
+         <a href="favoritos.html"> <img class="coracao" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVf9GKksQM9no8axWC6NZiv-d1Ljk-1plAA&s" alt=""></a>
+       
+          <img class="cv" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztOIfUdncrXUaKAGZ2WWFVQlAEoxXnsWygQ&s" alt="">
+  </div>
+</div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay"> </div>
+ 
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar" >
+    <H1>DEPARTAMENTOS</H1> <br>
+    <!-- MENU 1 -->
+    <div class="menu-item" onclick="toggleSub('sub1')">
+      Processador <span class="arrow">▼</span>
+    </div>
+    <div id="sub1" class="submenu">
+     <a href="intelp.html"><div>INTEL</div></a>
+    <a href="amdp.html"><div>AMD</div></a>
+    </div>
+    <!-- MENU 2 -->
+    <div class="menu-item" onclick="toggleSub('sub2')">
+      Placa de vídeo <span class="arrow">▼</span>
+    </div>
+    <div id="sub2" class="submenu">
+   <a href="GeF.html"><div>NVIDIA GeForce</div></a>
+ <a href="Radeon.html"><div>AMD Radeon</div></a>
+     <a href="Arc.html"><div>INTEL Arc</div></a>
+    </div>
+
+    <!-- MENU 3 -->
+    <div class="menu-item" onclick="toggleSub('sub3')">
+      Placa-Mãe <span class="arrow">▼</span>
+    </div>
+    <div id="sub3" class="submenu">
+     <a href="intelm.html"><div>INTEL</div></a>
+ <a href="amdm.html"><div>AMD</div></a>
+    </div>
+
+    <!-- MENU 4 -->
+    <div class="menu-item" onclick="toggleSub('sub4')">
+      Memória RAM <span class="arrow">▼</span>
+    </div>
+    <div id="sub4" class="submenu">
+      <a href="3.html"><div>DDR3</div></a>
+      <a href="4.html"><div>DDR4</div></a>
+      <a href="5.html"><div>DDR5</div></a>
+    </div>
+
+    <!-- MENU 5 -->
+    <div class="menu-item" onclick="toggleSub('sub5')">
+      Armazenamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub5" class="submenu">
+ <a href="ssd.html"><div>SSD</div></a>
+ <a href="hd.html"><div>HD</div></a>
+    </div>
+
+     <!-- MENU 6 -->
+    <div class="menu-item" onclick="toggleSub('sub6')">
+      Fonte <span class="arrow">▼</span>
+    </div>
+    <div id="sub6" class="submenu">
+       <a href="p1.html"><div>400W ~ 599W</div></a>
+        <a href="p2.html"><div>600W ~ 899W</div></a>
+         <a href="p3.html"><div>900W ~ 1199W</div></a>
+          <a href="p4.html"><div>Acima de 1200W</div></a>
+    </div>
+
+    <!-- MENU 7 -->
+    <div class="menu-item" onclick="toggleSub('sub7')">
+      Gabinete <span class="arrow">▼</span>
+    </div>
+    <div id="sub7" class="submenu">
+   <a href="m-atx.html"><div>M-ATX</div></a>
+     <a href="atx.html"><div>ATX</div></a>
+     <a href="mini.html"><div>Mini ITX</div></a>
+    </div>
+
+    <!-- MENU 8 -->
+    <div class="menu-item" onclick="toggleSub('sub8')">
+     Sistema de Resfriamento <span class="arrow">▼</span>
+    </div>
+    <div id="sub8" class="submenu">
+      <a href="ai.html"><div>Air Cooler</div></a>
+      <a href="wc.html"><div>Water Cooler</div></a>
+    </div>
+<!-- MENU 9 -->
+    <div class="menu-item" onclick="toggleSub('sub9')">
+      Periférios <span class="arrow">▼</span>
+    </div>
+    <div id="sub9" class="submenu">
+        <a href="t.html"><div>Teclado</div></a>
+          <a href="m.html"><div>Mouse</div></a>
+            <a href="mr.html"><div>Monitor</div></a>
+              <a href="h.html"><div>Headset</div></a>
+                <a href="fo.html"><div>Fone de Ouvido</div></a>
+    </div>
+
+
+
+
+  </div>
+     <div class="S1">
+        <div class="heart"></div>
+<div class="tag-desconto">65% OFF</div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/n/snv3s-4000g2.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Kingston NV3, 4TB, M.2 2280, PCIe NVMe, Leitura 6000MB/s, Gravacao 5000MB/s</h3>
+
+    <p class="preco-antigo">de R$ 2.499,99</p>
+    <p class="preco-atual">R$ 787,49</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+  
+</div>
+ </div>
+
+
+     <div class="S2">
+        <div class="heart"></div>
+
+
+    <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/219832/xlarge/SSD-512GB-Win-Memory-SWB512G-M-2-Leitura-560-MB-s-E-Grava-o-540-MB-s_1746704438.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Win Memory, 512GB, M.2 2280, PCIe NVMe, Leitura 2400MB/s, Gravacao 1700MB/s </h3>
+
+    <p class="preco-antigo">de R$ 699,99</p>
+    <p class="preco-atual">R$ 439,99</p>
+   
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="S3">
+    <div class="heart"></div>
+
+
+
+  <img class="produto-img"src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/s/n/snv3sm3-500g.jpg" alt="">
+    <h3 class="titulo"> SSD Kingston NV3, 500GB, M.2 2230, PCIe NVMe, Leitura 5000MB/s, Gravacao 3000MB/s</h3>
+
+    <p class="preco-antigo">de R$ 799,99</p>
+    <p class="preco-atual">R$ 459,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+
+    <div class="S4">
+
+        <div class="heart"></div>
+
+        <img class="produto-img" src="https://empresas-media.pichau.com.br/media/catalog/product/cache/7331996c443582b873b5a5acaf320474/s/n/snv3s-1000g2.jpg" alt="">
+
+        <h3 class="titulo">SSD Kingston NV3, 1TB, M.2 2280, PCIe NVMe, Leitura 6000MB/s, Gravacao 4000MB/s,</h3>
+
+        <p class="preco-antigo">de R$ 1.299,99</p>
+        <p class="preco-atual">R$ 799,99</p>
+
+        <div class="compre">
+            <a href="carrinho.html"><b>COMPRAR</b></a>
+        </div>
+
+    </div>
+</div>
+
+ <div class="S5">
+  <div class="heart"></div>
+
+    <img class="produto-img" src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/l/n/lnm1090002t-_rnanu.jpg" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Lexar Professional NM1090, 2TB, M.2 2280, PCIe NVMe, Leitura 12000MB/s, Gravacao 11000MB/s,</h3>
+
+    <p class="preco-antigo">de R$ 3.799,99</p>
+    <p class="preco-atual">R$ 2.999,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+
+
+ <div class="S6">
+  <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/s/l/sleg-860-500gcs.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo"> SSD Adata Legend 860, 500GB, M.2 2280, PCIe NVMe, Leitura 5000 MB/s, Gravaçao 3000 MB/s</h3>
+
+    <p class="preco-antigo">de R$ 689,99</p>
+    <p class="preco-atual">R$ 399,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<div class="S7">
+  <div class="heart"></div>
+<div class="tag-desconto">5% OFF</div>
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/n/snv3s-2000g1.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Kingston NV3, 2TB, M.2 2280, PCIe NVMe, Leitura 6000MB/s, Gravaçao 5000MB/s</h3>
+
+    <p class="preco-antigo">de R$ 2.599,99</p>
+    <p class="preco-atual">R$ 2.469,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<div class="S8">
+  <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/c/pch-rvrp-2561.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Pichau Rover, 256GB, M.2 2280, PCIe NVMe 3.0, Leitura 1500MB/s, Gravacao 900MB/s,</h3>
+
+    <p class="preco-antigo">de R$ 599,99</p>
+    <p class="preco-atual">R$ 339,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<div class="S9">
+  <div class="heart"></div>
+
+    <img src="https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/d/sdssde62p-2t00-g25.jpg" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD Portatil Sandisk Extreme Playstation, 2TB, USB 3.2, Branco,</h3>
+
+    <p class="preco-antigo">de R$ 2.299,99</p>
+    <p class="preco-atual">R$ 1.799,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<div class="S10">
+  <div class="heart"></div>
+<div class="tag-desconto">15% OFF</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdE_ZOw-XAX8neB6S0o_Zbu1YLxCRsW0EQmA&s" class="produto-img" alt="PC Gamer">
+
+    <h3 class="titulo">SSD TGT Seal ST, 120GB, Sata III 6GB/s, Leitura 500 MB/s, Gravacao 450 MB/s</h3>
+
+    <p class="preco-antigo">de R$ 199,99</p>
+    <p class="preco-atual">R$ 169,99</p>
+   
+<div class="compre"><a href="carrinho.html"><b>COMPRAR</b></a></div>
+</div>
+<script src="script.js"></script>
+
+<body>
+<html>
