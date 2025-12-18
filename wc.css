@@ -267,7 +267,7 @@ justify-content: center;
 display: flex;
 font-size: 19px;
 }
-.H1 {
+.W1 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -278,7 +278,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 50px;
 }
-.H2 {
+.W2 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -289,7 +289,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 400px;
 }
-.H3 {
+.W3 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -300,7 +300,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 750px;
 }
-.H4 {
+.W4 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -314,7 +314,7 @@ font-size: 19px;
 
 
 }
-.H5 {
+.W5 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -325,7 +325,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 1450px;
 }
-.H6 {
+.W6 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -336,7 +336,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 50px;
 }
-.H7 {
+.W7 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -347,7 +347,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 400px;
 }
-.H8 {
+.W8 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -358,7 +358,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 750px;
 }
-.H9 {
+.W9 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -369,7 +369,7 @@ font-size: 19px;
     border: 3px solid black;
     margin-left: 1100px;
 }
-.H10 {
+.W10 {
     width: 260px;
     background: #ffffff;
     padding: 15px;
@@ -404,54 +404,54 @@ font-size: 19px;
 
   transition: .2s;
 }
-/* Aparece quando passa o mouse no H1 */
-.H1:hover .heart {
+/* Aparece quando passa o mouse no P1 */
+.W1:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H2 */
-.H2:hover .heart {
+/* Aparece quando passa o mouse no P2 */
+.W2:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 
-/* Aparece quando passa o mouse no H3 */
-.H3:hover .heart {
+/* Aparece quando passa o mouse no P3 */
+.W3:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H4 */
-.H4:hover .heart {
+/* Aparece quando passa o mouse no P4 */
+.W4:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H5 */
-.H5:hover .heart {
+/* Aparece quando passa o mouse no P5 */
+.W5:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H6 */
-.H6:hover .heart {
+/* Aparece quando passa o mouse no P6 */
+.W6:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H7 */
-.H7:hover .heart {
+/* Aparece quando passa o mouse no P7 */
+.W7:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H8 */
-.H8:hover .heart {
+/* Aparece quando passa o mouse no P8 */
+.W8:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H9 */
-.H9:hover .heart {
+/* Aparece quando passa o mouse no P9 */
+.W9:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
-/* Aparece quando passa o mouse no H10 */
-.H10:hover .heart {
+/* Aparece quando passa o mouse no P10 */
+.W10:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
